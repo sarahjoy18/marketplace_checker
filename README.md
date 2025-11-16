@@ -28,16 +28,19 @@ cd marketplace\_checker
 
 It is highly recommended to use a Python virtual environment:
 
-python \-m venv venv  
-source venv/bin/activate  \# On macOS/Linux  
-\# venv\\Scripts\\activate   \# On Windows
+```console
+python -m venv venv  
+source venv/bin/activate  # On macOS/Linux  
+# venv\\Scripts\\activate   \# On Windows
+```
 
 ### **3\. Install Dependencies**
 
 The application relies only on Flask and Flask-CORS:
 
+```console
 pip install Flask Flask-CORS
-
+```
 ### **4\. Data Setup (Crucial)**
 
 The application requires three JSON files in the root directory to simulate the data from different marketplaces.
